@@ -20,6 +20,16 @@ const rutas = [
     id: 4,
     name: 'Formik components',
     route: 'formik-components'
+  },
+  {
+    id: 5,
+    name: 'Formik Register',
+    route: 'formik-register'
+  },
+  {
+    id: 6,
+    name: 'Formik Dynamic',
+    route: 'formik-dynamic'
   }
 ]
 

@@ -4,7 +4,9 @@ import {
   FormikAbstract,
   FormikBasic,
   FormikComponents,
-  FormikYupPage
+  FormikYupPage,
+  RegisterFormik,
+  DynamicForm
 } from '../pages'
 
 const router = createBrowserRouter([
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: 'formik-abstract',
         element: <FormikAbstract />
+      },
+      {
+        path: 'formik-register',
+        element: <RegisterFormik />
+      },
+      {
+        path: 'formik-dynamic',
+        element: <DynamicForm />
       }
     ]
   }

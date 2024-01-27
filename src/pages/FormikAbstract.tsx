@@ -4,7 +4,7 @@ import { MyCheckbox, MySelect, MyTextInput } from '../components'
 
 const FormikAbstract = () => {
   return (
-    <div className="w-1/2">
+    <div className="bg-neutral-800 rounded-md p-10">
       <Formik
         initialValues={{
           firstName: '',
@@ -47,7 +47,7 @@ const FormikAbstract = () => {
 
             <button
               type="submit"
-              className="px-4 py-2 bg-neutral-800 text-sm rounded-md font-bold"
+              className="px-4 py-2 bg-slate-700 text-sm rounded-md font-bold"
             >
               Submit
             </button>

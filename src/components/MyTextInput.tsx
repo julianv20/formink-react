@@ -20,7 +20,7 @@ interface Props {
 const MyTextInput = ({ label, ...props }: Props) => {
   const [field, meta] = useField(props)
   return (
-    <>
+    <div className="grid">
       <label className="text-white" htmlFor={props.name}>
         {label}
       </label>
@@ -37,7 +37,7 @@ const MyTextInput = ({ label, ...props }: Props) => {
       {/* {meta.touched && meta.error && (
         <span className="text-red-500">{meta.error}</span>
       )} */}
-    </>
+    </div>
   )
 }
 

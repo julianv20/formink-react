@@ -1,0 +1,53 @@
+[
+  {
+    "type": "input",
+    "name": "name",
+    "placeholder": "Julian",
+    "label": "name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "min",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Vanegas",
+    "label": "Last name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "email",
+    "label": "Email",
+    "value": ""
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "label": "League of Legends"
+      },
+      {
+        "id": 2,
+        "label": "Metal Gears"
+      }
+    ]
+  }
+]
